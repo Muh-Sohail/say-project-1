@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       .main-container {
+           display: flex;
+           
+           height: 500px;
+       }
+       .first-container {
+           display: flex;
+           flex: 1;
+           flex-direction: column;
+           justify-content: space-between;
+           /* text-align: center;
+           margin-top: 10px; */
+       }
+       .second-container {
+           display: flex;
+           flex: 1;
+       }
+       .third-container{
+           display: flex;
+           flex: 1;
+           flex-direction: column;
+           justify-content: space-between;
+       }
+       .first-box1 {
+           background-color: slateblue;
+            flex: 1; 
+            /* padding-top: 20px;   */
+           /* display: flex; */
+           /* justify-content: center; */
+           /* text-align: center;  */
+            
+            
+/* j           justify-content: center;             */
+       }
+       .first-box2 {
+           background-color: chartreuse;
+            flex: 1;   
+       }
+       .first-box3 {
+           background-color: chocolate;
+            flex: 1;   
+       }
+       .second-box1 {
+           background-color: blue;
+           flex: 1;
+
+       }
+       .marg-1 {
+           margin-bottom: 10px;
+           border-radius: 10px;
+           margin-right: 10px;
+       }
+       .third-container :nth-child(1) {
+           background-color: darkmagenta;
+           flex: 1;
+       }
+       .third-container :nth-child(2) {
+           background-color: crimson;
+           flex: 1;
+       }
+       .third-container :nth-child(3) {
+           background-color: chartreuse;
+           flex: 1;
+       }
+       .third-container :nth-child(4) {
+           background-color: cornflowerblue;
+           flex: 1;
+           color: cornsilk;
+
+       }
+       .third-box4 {
+           /* padding:  50px;
+           margin: 10px; */
+       }
+       .one{
+           text-align: center;
+           margin-top: 50px;
+       }
+       .marq{
+           height: 210px;
+       }
+       .marg-3 {
+           border-radius: 5px;
+           margin-bottom: 5px;
+           margin-left: 5px;
+           text-align: center;
+           
+       }
+       .third-container :nth-child(3) >p {
+           margin-top: 50px;
+       }
+   </style>
+
+    
+</head>
+<body>
+    <div class="main-container">
+        <div class="first-container">
+            <div class="first-box1 marg-1"><p class="one"> box-f-1</p></div>
+            <div class="first-box2 marg-1">box-f-2</div>
+            <div class="first-box3 marg-1">box-f-2</div>
+        </div>
+       <div class="second-container">
+           <div class="second-box1">second box1</div>
+       </div>
+       <div class="third-container">
+           <div class="third-box1 marg-3"><p>thotf</p> </div>
+           <div class="third-box2 marg-3">third</div>
+           <div class="third-box3 marg-3">third</div>
+           <div class="third-box4 marg-3">
+
+            <marquee behavior="" direction="up" class="marq">kjkh hkjh khjkhkjkhkhjkh
+                ljlk jkllkj ljlk
+                jjkhjkh
+                ljlkj
+                ll
+                lkk
+            </marquee>
+               </div>
+
+       </div>
+       
+    </div>
+</body>
+</html>

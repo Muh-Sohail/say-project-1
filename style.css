@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background:#82515b;
+    color: white !important;
+    font-weight: 500;
+}
+.nav-link {
+    color: white !important;
+    
+}
+.navbar-brand {
+    color: white !important;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-shadow:2px 5px 2px black;
+}
+.carousel-item {
+    height: 470px;
+}
+.marq {
+    background-color:black;
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+@media screen and (min-width: 820px) {
+     .marq{
+         margin: 0px !important;
+         padding: 0;
+         
+     }
+     .carousel-inner, .carousel-item active {
+         margin: 0px !important;
+         
+     }
+}
+
+.card-img-top {
+    width: 350px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.main-card {
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 400px;
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+}
+
+.prostyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pro-img img {
+    width: 400px;
+    height: 350px;
+}
+
+.tage-1 i {
+    /* align-items: center; */
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: lightseagreen;
+    
+}
+.i-tage {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-right: 30px; */
+    /* display: inline-block; */
+}
+.tage-1{
+    width: 200px;
+    /* background-color: blue; */
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+
+}
+.p-101 {
+    font-size: 20px;
+    text-align: center;
+    color: lightseagreen;
+}
+.h-101 {
+    background:  #aa9420;
+    margin-bottom: 0px;
+}
+.h-102 {
+    background: #978f4f70;
+    margin-bottom: 0px;
+    /* transform: rotate(-90deg) scale(,0); */
+}
+.color-1 {
+    background-color: #888740;
+    height: 20px;
+       
+}
+
+.color-2 {
+    background-color: black;
+    height: 20px;
+       
+}
+
+.navbar-toggler {
+    background-color: blue;
+}
+.navbar-toggler-icon{
+    background-color: chartreuse;
+}
+
+
+.main-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.style-1 img {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.loct {
+    display: flex;
+}
+.loct div{
+    margin-left: 30px;
+}
